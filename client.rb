@@ -2,8 +2,8 @@ require 'httpclient'
 require 'uri'
 require 'json'
 
-#url = 'http://mrcp3.amivoicethai.com:14800/recognize'
-url = 'https://mrcp3.amivoicethai.com:14801/recognize'
+url = 'http://mrcp3.amivoicethai.com:14800/recognize'
+#url = 'https://mrcp3.amivoicethai.com:14801/recognize'
 query = {
 #  'd' => "grammarFileNames=-AmiDnnThaiMobile16k_BaseEngine",
   'd' => "grammarFileNames=-AmiDnnThaiTelephony8k_BaseEngine",
